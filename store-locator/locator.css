@@ -14,3 +14,198 @@ body, .leaflet-container {
   line-height: 1.5;
   font-weight: 700;
 }
+
+INPUT:focus,SELECT:focus {
+    border: 0px;
+}
+
+a, .leaflet-container a {
+	color: #f58d77;
+	-webkit-transition: color 300ms ease;
+	transition: color 300ms ease;
+	text-decoration: none;
+}
+
+a:hover, .leaflet-container a:hover {
+	color: #f873a4;
+	text-decoration: none;
+}
+
+.heading {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-family: 'Housearama kingpin',sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.search INPUT[type=text],
+.resultsstyle #search {
+    padding: 8px 12px;
+    border-radius: 7px;
+    border: 2px solid #f2c1af;
+    box-shadow: none;
+    position: relative;
+}
+
+.search INPUT[type=text]:focus, .search INPUT[type=text]:hover,
+.resultsstyle #search:focus, .resultsstyle #search:hover, {
+    border-color: #f58d77;
+}
+
+.searchtext {
+    line-height: 1.4em;
+    color: #828284;
+}
+
+.btn,
+.search .btn,
+.resultsstyle .btn,
+.search INPUT[type=submit]  {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #4477bf;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.2em;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+	display: inline-block;
+    border: 0;
+    box-shadow: none;
+}
+
+	.btnal { /* Geo */
+		position: relative;
+	    top: -1px;
+
+	    background-repeat: no-repeat !important;
+	    background-image: url(https://uploads-ssl.webflow.com/5a206fab106bec000186c2a6/5b6c98253d9b8423716f97d2_icon-local.svg) !important;
+	    background-position: 50% 50% !important;
+	    background-size: 16px 16px !important;
+	}
+	#schbutton .btn { /* Search */
+		background-color: #f873a4;
+
+	    background-repeat: no-repeat !important;
+	    background-image: url(https://uploads-ssl.webflow.com/5a206fab106bec000186c2a6/5b6c98253d9b8432696f97d3_icon-search.svg) !important;
+	    background-position: 50% 50% !important;
+	    background-size: 16px 16px !important;
+	}
+
+.btn:hover,
+.resultsstyle .btn:hover, 
+INPUT[type=submit]:hover,
+INPUT[type=button]:hover, {
+	background-color: #658fca;
+	opacity: 1 !important;
+}
+	#schbutton .btn:hover { /* Search */
+		background-color: #f8ab73;
+	}
+
+.result {
+    margin: 20px;
+    border-radius: 0em;
+    margin: 0px;
+    padding: 15px;
+    border: none;
+}
+
+.resultnav {
+    padding-bottom: 20px;
+}
+
+.storedist {
+    margin:0px;
+    margin-top: 3px;
+}
+
+.storename {
+    font-family: museo-sans-rounded,sans-serif;
+    color: #f58d77;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.storecountry {
+	display: none;
+}
+
+#switchbutton {
+	color: #fff;
+	letter-spacing: 2px;
+	border: 0px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	background-color: #1ecfcf;
+	box-shadow: none;
+}
+
+.directionsstyle {
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.directionsstyle .storename {
+	color: #D11B1B;
+}
+
+.directionsstyle .storeaddress, .directionsstyle .storephone {
+	color: #797979;
+}
+
+.leaflet-popup-content-wrapper {
+	border-radius: 5px;
+}
+
+.leaflet-popup-tip {
+	border-top: 10px solid #D11B1B;
+}
+
+.result.priority.iwindow {
+    border: 0px;
+}
+
+.result.priority.iwindow .storedist {
+    margin-top: 13px;
+}
+
+#resultsmover {
+	display:none;
+}
+
+img.leaflet-marker-icon.leaflet-marker-draggable {
+    width: 32px !important;
+}
+
+.storephone {
+    display: none;
+}
+
+.storeoptions {
+    text-align: left;
+}
+
+.resultlist {
+    padding: 16px 30px;
+}
+
+.resultlist:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+.storeoptions a {
+    color: #658fca;
+}
+.storeoptions a:hover {
+    color: #4477bf;
+}
