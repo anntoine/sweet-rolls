@@ -7,10 +7,10 @@
   font-style: normal;
 }
 
-body {
+body, .leaflet-container {
   font-family: museo-sans-rounded,sans-serif;
   color: #462B20;
   font-size: 14px;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 700;
 }
