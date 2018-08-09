@@ -1,0 +1,16 @@
+@import url("https://use.typekit.net/tsp2exx.css");
+
+@font-face {
+  font-family: 'Housearama kingpin';
+  src: url('https://uploads-ssl.webflow.com/5a206fab106bec000186c2a6/5b3f0ce6fa3aa93a1c76f182_Housearama-Kingpin.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: museo-sans-rounded,sans-serif;
+  color: #462B20;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
